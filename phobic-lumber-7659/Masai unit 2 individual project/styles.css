@@ -72,7 +72,7 @@ body {
 
 .tabs-container,
 .layer2 {
-  width: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color: lightgray;
@@ -120,4 +120,35 @@ body {
     grid-template-columns: auto;
     align-items: center;
 
+}
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  /* for horizontal aligning of child divs */
+  justify-content: center;
+  /* for vertical aligning */
+  align-items: center;
+  
+}
+.search{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+body{
+  width: 90%;
+}
+
+#comb-img{
+  display: flex;
+}
+
+
+
+#comb-img .img{
+  width: 100%;
+}
+
+#comb-img .img img{
+  width: 100%;
 }
