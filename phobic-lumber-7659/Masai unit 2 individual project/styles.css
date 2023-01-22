@@ -31,9 +31,9 @@ p {
   color: #465b52;
   margin: 15px 0 20px 0;
 }
-body {
+/* body {
   width: 100%;
-}
+} */
 #logo {
   width: 90px;
   height: 90px;
@@ -151,4 +151,33 @@ body{
 
 #comb-img .img img{
   width: 100%;
+}
+.midbuttons{
+  display: flex;
+  justify-content: space-between;
+}
+.midbuttons button{
+  background-color: purple;
+  color: white;
+  padding:20px 20px 20px 20px;
+
+}
+.services{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+ 
+}
+.services .serv ul{
+  list-style: none;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.catalog{
+  display: flex;
+  
+}
+
+.full {
+  width: 1009;
 }
